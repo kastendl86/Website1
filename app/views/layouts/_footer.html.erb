@@ -1,0 +1,6 @@
+<div id="navbar"><h1 class="maintext"><%= link_to "Projects",    proj_path %> &nbsp; <%= link_to "Favorites",    fav_path %> &nbsp; Login &nbsp; <%= link_to "About",    about_path %></h1>
+<p class="copy">&copy; 2014 | Cyfarwydd |  <% if mobile_device? %>
+          <%= link_to "Full Site", :mobile => 0 %>
+        <% else %>
+          <%= link_to "Mobile Site", :mobile => 1 %>
+        <% end %></p></div>

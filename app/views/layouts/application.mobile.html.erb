@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag    "mobile", "mobile" => true %>
+  <%= link_to "MOBILE SITE", :controller => "home", :action => "set_layout", :mobile => "1" %>
+
+
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+   <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<%= render 'layouts/headerm>
+  <div class="current">
+      <%- if show_title? -%>
+      <div class="toolbar">
+        <%= link_to "Back", nil, :class => "back" unless current_page? root_path %>
+        <h1><%=h yield(:title) %></h1>
+        <%= link_to "Full Site", root_url(:mobile => 0), :class => "button", :rel => "external" %>
+        <%= yield(:toolbar) %>
+      </div>
+      <%- end -%>
+<%= render 'layouts/footerm' %>
+</body>
+</html>

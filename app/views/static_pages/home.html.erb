@@ -1,9 +1,21 @@
-<head>
 
-<title>Cyfarwydd | Home | We are the Stoytellers</title>
-<link REL='stylesheet' HREF='layout.css' TYPE='text/css'>
-</head>
 
-<div id="banner"><img src="banner1.png"/></div>
-<div id="indexcenter"><img src="square.png"/></div>
-<div id="navbar"><h1 class="maintext"><a href="proj.html">Projects</a> &nbsp; <a href="fav.html">Favorites</a> &nbsp; Login &nbsp; About</h1></div
+
+
+
+
+
+<div id="indexcenter">
+
+
+
+
+
+ <% if mobile_device? %>
+   <img src="/assets/squarem.png"/>
+        <% else %>
+      <img src="/assets/square.png"/>
+        <% end %>
+</div>
+
+

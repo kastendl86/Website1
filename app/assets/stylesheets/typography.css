@@ -1,0 +1,48 @@
+h1.maintext{
+font-family:"verdana";
+font-size:2em;
+color:#000000;
+text-align:center;
+}
+p.maintext{
+font-family:"verdana";
+font-size:1em;
+color:#000000;
+text-align:center;
+}
+
+p.indexdef{
+font-family:"verdana";
+font-size:1.8em;
+color:#000000;
+padding-left:0.5%;
+
+}
+p.copy {
+font-family:"verdana";
+font-size:0.7em;
+color:#000000;
+text-align:center;
+}
+
+p.bios {
+font-family:"verdana";
+font-size:1em;
+color:#000000;
+word-wrap:break-word;
+padding-right:2%;
+padding-left:3%;
+}
+
+h1.titledef {
+font-family:"Courier New";
+font-size:2em;
+color:#000000;
+font-weight:900; 
+}
+
+#cydef {
+font-family:"Courier New";
+font-size:1.5em;
+color:#000000;
+}

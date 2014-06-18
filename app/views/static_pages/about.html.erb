@@ -1,0 +1,17 @@
+<% provide(:title, 'About') %>
+
+
+
+<div id="maincont">
+<div id="cydef">
+<h1 class="titledef">Cyfarwydd:</h1>Orign:Welsh; Story-teller; Guide; Expert
+</div>
+<div id="maintext">
+<% if mobile_device? %>
+<%= render 'layouts/biom' %>
+   <% else %>
+<%= render 'layouts/bio' %>
+    <% end %>
+</div>
+
+ </div>

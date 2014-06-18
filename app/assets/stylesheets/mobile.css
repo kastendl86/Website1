@@ -1,29 +1,19 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("typography.css"); 
+@import url("colors.css"); 
 body{
 		margin:auto;
 		background-image:url('defback.jpg');
 }
 
-
-#formatlnk {
-width:85%;
-height:5%;
-margin:auto;
-margin-top:5%;
-
-}
-
 #navbar {
-width:85%;
+width:400px;
 height:5%;
 margin:auto;
 margin-top:5%;
 }
 
 #maincont{
-width:85%;
+width:400px;
 height:95%;
 padding-top:2%;
 padding-bottom:1%;
@@ -33,9 +23,10 @@ margin-top:none;
 background-color:#ffffff;
 }
 
-#banner{
+#bannerm{
 margin-top:1%;
-margin-left:2%;
+text-align:center;
+margin-right:10%;
 }
 
 #maintext{
@@ -48,16 +39,16 @@ background-color:#ffffff;
 }
 
 #indexcenter {
-width:65%;
+width:400px;
 height:100%;
 margin:auto;
-border-radius:10px;
 background-color:#ffffff;
+
 }
 
 #dpic {
-width:190px;
-height:204px;
+width:90px;
+height:auto;
 position:relative;
 float:left;
 border-radius:10px;
@@ -66,8 +57,8 @@ background-color:#ffffff;
 border:2px solid;
 }
 #bpic {
-width:201px;
-height:158px;
+width:90px;
+height:auto;
 position:relative;
 float:left;
 border-radius:10px;
